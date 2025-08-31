@@ -26,7 +26,7 @@ import getAllNotification from './hooks/getAllNotification.jsx'
 import Notification from './pages/Notification.jsx'
 import { setNotificationData } from './redux/UserSlice.js'
 
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://vibe-backend-emgt.onrender.com"
 
 function App() {
   getSuggestedUsers()
